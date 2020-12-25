@@ -9,36 +9,26 @@ if (marks >=90){
     pass=true;
     fail=false;
     console.log("Congratulation! You passed your Exam and obtained grade  A+ ")
-}else
-if (marks >=80){
+}else if (marks >=80){
     pass=true;
     fail=false;
     console.log("Congratulation! You passed your Exam and obtained grade  A ")
-}
-}else
-if (marks >=70){
+}else if (marks >=70){
     pass=true;
     fail=false;
     console.log("Congratulation! You passed your Exam and obtained grade  B ")
-}
-}else
-if (marks >=60){
+}else if (marks >=60){
     pass=true;
     fail=false;
     console.log("Congratulation! You passed your Exam and obtained grade  C ")
-}
-}else
-if (marks >=50){
+}else if (marks >=50){
     pass=true;
     fail=false;
     console.log("Congratulation! You passed your Exam and obtained grade  D ")
-}
-}else
-if (marks >=40){
+}else if (marks >=40){
     pass=true;
     fail=false;
     console.log("Congratulation! You passed your Exam and obtained grade  E ")
-}
 } else {
     pass=false;
     fail=true;
