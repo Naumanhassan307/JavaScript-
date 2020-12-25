@@ -1,6 +1,8 @@
 //<-------Grade calculator---------->
-
-const marks=90;
+console.log(" ")
+console.log("<<<<<GRADE CLACULATION FINDER>>>>>")
+console.log(" ")
+const marks=31;
 
 let pass=false;
 let fail=true;
