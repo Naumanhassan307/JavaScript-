@@ -28,7 +28,7 @@ console.log("| Name: NAUMAN HASSAN  Roll# 16767  |")
 console.log(" ----------------------------------- ")
 console.log("")
 
-const age=19;
+const age=55;
 let eligible=false;
 
 if (age >=50){
