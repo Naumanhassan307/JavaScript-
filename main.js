@@ -10,6 +10,12 @@ console.log(c)
 //<------------------>
 
 
-let a=3;
-console.log(a)
+let q=307;
+console.log(q)
+//<------------------>
+
+let fname="Nauman";
+let sname="Hassan";
+
+console.log(fname + " "+ sname +"   " + q)
 //<------------------>
