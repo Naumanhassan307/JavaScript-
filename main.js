@@ -21,16 +21,30 @@
 //<------------------>
 
 //<------------------>
-console.log("|-----------------------------------|")
-console.log("      Visa Eligibility Finder        ")
-console.log("|-----------------------------------|")
+console.log(" ----------------------------------- ")
+console.log("|           Assignment              |")
+console.log("|     Visa Eligibility Finder       |")
+console.log("| Name: NAUMAN HASSAN  Roll# 16767  |")
+console.log(" ----------------------------------- ")
+console.log("")
+
 const age=19;
+let eligible=false;
 
 if (age >=50){
     console.log("You are senior citizen.")
+    console.log("Your current age is " + " " + age)
+    eligible=true;
+    console.log("You are Eligible for VISA")
 } else if(age >18){
     console.log("You are young.")
+    console.log("Your current age is " + " " + age)
+    eligible=true;
+    console.log("You are Eligible for VISA")
 }else {
-    console.log("You are child.")
+    console.log("You are child.") 
+    console.log("Your current age is " + " " + age)
+    eligible=false;
+    console.log("You are not Eligible for VISA")
 }
 
